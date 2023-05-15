@@ -16,6 +16,7 @@ function Users() {
 }
 
 ];
+
   return (
   <div>
 {
@@ -27,5 +28,5 @@ function Users() {
 }
   </div>
   );
-}
+} 
 export default Users;
