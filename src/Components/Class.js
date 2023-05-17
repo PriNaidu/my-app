@@ -8,7 +8,7 @@ class Class extends Component{
   <>
         <h1> Hii {name} and aslo {heroName}</h1>
         {this.props.children}
-  </>
+    </>
     )
 } 
 }
