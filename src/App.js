@@ -4,10 +4,13 @@ import Class from "./Components/Class";
 import Message from "./Components/Message";
 import Counter from "./Components/Counter";
 import Users from "./Components/Users";
+import Carousel from "./Components/Carousel";
+import CustomCarousel from "./Components/CustomCarousel";
 function App() {
   return (
     <div className="App">
-      <Users/>
+      <CustomCarousel />
+      {/* <Users/> */}
       {/* <Counter/>
       <Message/> */}
       {/* <h1>Functional Components example</h1>
