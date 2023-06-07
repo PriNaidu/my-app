@@ -6,14 +6,16 @@ import Counter from "./Components/Counter";
 import Users from "./Components/Users";
 import Carousel from "./Components/Carousel";
 import CustomCarousel from "./Components/CustomCarousel";
+import DragAndDrop from "./Components/DragAndDrop"
 function App() {
   return (
     <div className="App">
-      <CustomCarousel />
+      <DragAndDrop />
+      {/* <CustomCarousel /> */}
       {/* <Users/> */}
       {/* <Counter/>
       <Message/> */}
-      {/* <h1>Functional Components example</h1>
+      {/* <h1>Functional Components example</h1> 
       <Greet name="Priyanka" heroName="Wonder WoMan">
         <p>Hello this is priyanka.</p>
       </Greet>
