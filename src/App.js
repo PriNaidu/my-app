@@ -7,10 +7,12 @@ import Users from "./Components/Users";
 import Carousel from "./Components/Carousel";
 import CustomCarousel from "./Components/CustomCarousel";
 import DragAndDrop from "./Components/DragAndDrop"
+import DeagabbleList from "./Components/DragabbleList"
 function App() {
   return (
     <div className="App">
-      <DragAndDrop />
+      <DeagabbleList/>
+      {/* <DragAndDrop /> */}
       {/* <CustomCarousel /> */}
       {/* <Users/> */}
       {/* <Counter/>
