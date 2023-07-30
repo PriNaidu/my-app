@@ -4,14 +4,53 @@
   box-sizing: border-box;
   outline: none;
   scroll-behavior: smooth;
+  font-family: "Poppins";
 }
 
 :root{
+  --white: #fff;
   --bg-clr: linear-gradient(180deg, rgba(221, 88, 214, 0.20) 0%, rgba(221, 88, 214, 0.00) 100%), #40128B;
 }
 
-.main-container{
+.main-c{
   height: 100dvh;
   width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.auth-c{
+  height:100%;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
   background: var(--bg-clr);
+}
+.auth-c :is(.left-c,.right-c){
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+}
+
+.auth-c .left-c{
+  background: var(--white);
+  width: 40%;
+}
+
+.auth-c .right-c{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  width: 60%;
+}
+
+.auth-c .right-c h1{
+  color: var(--white);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: normal;
+  margin: 35px 0;
 }

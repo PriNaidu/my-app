@@ -1,17 +1,21 @@
 import "./App.css";
-import Greet from "./Components/Greet";
-import Class from "./Components/Class";
-import Message from "./Components/Message";
-import Counter from "./Components/Counter";
-import Users from "./Components/Users";
-import Carousel from "./Components/Carousel";
-import CustomCarousel from "./Components/CustomCarousel";
-import DragAndDrop from "./Components/DragAndDrop"
-import DeagabbleList from "./Components/DragabbleList"
+// import Greet from "./Components/Greet";
+// import Class from "./Components/Class";
+// import Message from "./Components/Message";
+// import Counter from "./Components/Counter";
+// import Users from "./Components/Users";
+// import Carousel from "./Components/Carousel";
+// import CustomCarousel from "./Components/CustomCarousel";
+// import DragAndDrop from "./Components/DragAndDrop"
+// import DeagabbleList from "./Components/DragabbleList"
+import Login from "./Components/Pages/Login.tsx"
+import Signup from "./Components/Pages/Signup.tsx"
 function App() {
   return (
     <div className="App">
-      <DeagabbleList/>
+      <Login/>
+      {/* <Signup/> */}
+      {/* <DeagabbleList/> */}
       {/* <DragAndDrop /> */}
       {/* <CustomCarousel /> */}
       {/* <Users/> */}
