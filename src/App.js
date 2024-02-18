@@ -6,13 +6,15 @@ import Counter from "./Components/Counter";
 import Users from "./Components/Users";
 import Carousel from "./Components/Carousel";
 import CustomCarousel from "./Components/CustomCarousel";
-// import DragAndDrop from "./Components/DragAndDrop"
+// import DragAndDrop from "./Components/DragAndDrop";
+import Button from "./Components/Button";
 function App() {
   return (
-    <div className="App">
-      {/* <DragAndDrop /> */}
-     <Greet/>
-
+    <div className="App">     
+     {/* <DragAndDrop /> */}
+     {/* <Greet/> */}
+     {/* <Button/> */}
+     <Button>Click me!</Button>
     </div>
   );
 }
