@@ -11,11 +11,7 @@ export const Greet = (props) => {
             {/* <p>Props </p> */}
             {/* <h1>Functional Component</h1> */}
             {/* <h2>Hiii {name} and also {heroName}</h2> */}
-            <input type="text">
-                <div>
-                    Example of props
-                </div>
-            </input>
+           
             <table>
                   <tbody>
                     <tr className="table-head ">

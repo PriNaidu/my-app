@@ -6,6 +6,7 @@ import Counter from "./Components/Counter";
 import Users from "./Components/Users";
 import Carousel from "./Components/Carousel";
 import CustomCarousel from "./Components/CustomCarousel";
+import ModalOpen from "./Components/ModalOpen";
 // import DragAndDrop from "./Components/DragAndDrop";
 import Button from "./Components/Button";
 function App() {
@@ -14,7 +15,8 @@ function App() {
      {/* <DragAndDrop /> */}
      {/* <Greet/> */}
      {/* <Button/> */}
-     <Button>Click me!</Button>
+     {/* <Button>Click me!</Button> */}
+     <ModalOpen/>     
     </div>
   );
 }
